@@ -1,0 +1,103 @@
+body {
+    margin-left: 25%;
+  }
+  
+  element.style {
+      margin-top: 150px;
+  }
+  .editable .row {
+      position: relative;
+  }
+  .row {
+      box-sizing: border-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -1.5rem;
+      margin-left: -1.5rem;
+  }
+  * {
+      font-family: roboto, sans-serif;
+  }
+  *, *::before, *::after {
+      box-sizing: border-box;
+  }
+  user agent stylesheet
+  div {
+      display: block;
+  }
+  .gray-theme .fr-element {
+      -webkit-user-select: auto;
+  }
+  .fr-view {
+      word-wrap: break-word;
+  }
+  .fr-element {
+      background: transparent;
+      position: relative;
+      z-index: 2;
+      -webkit-user-select: auto;
+  }
+  body {
+      background: #ffffff;
+      color: #393939;
+  }
+  body {
+      font-family: "Roboto", Helvetica, sans-serif;
+      font-weight: normal;
+  }
+  body {
+      font-size: 1em;
+      line-height: 1.5;
+  }
+  body {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: subpixel-antialiased;
+      text-rendering: optimizeLegibility;
+  }
+  html {
+      font-family: sans-serif;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+  }
+  *, *::before, *::after {
+      box-sizing: border-box;
+  }
+  .main-content.editable::after, .main-content.editable .form::after, .main-content.editable .row::after, body.fr-view .form::after, body.fr-view .row::after {
+      border-color: #393939;
+  }
+  .editable .row::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -10px;
+      left: calc(1.5rem - 10px);
+      right: calc(1.5rem - 10px);
+      bottom: -10px;
+      border: 1px solid;
+      border-radius: 4px;
+      border-top-right-radius: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.1s 0.1s linear;
+      pointer-events: none;
+  }
+  *, *::before, *::after {
+      box-sizing: border-box;
+  }
+  .gray-theme .fr-wrapper ::selection {
+      background: #b5d6fd;
+      color: #000;
+  }
+  .fr-wrapper ::selection {
+      background: #b5d6fd;
+      color: #000;
+  }
+  ::selection {
+      background: #49176d;
+      color: #000;
+  }
